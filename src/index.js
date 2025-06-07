@@ -1,6 +1,5 @@
 const http = require('http');
 const { MongoClient } = require('mongodb');
-const { bodyParser } = require('./utils/bodyParser');
 const  GetProducts  = require('./classes/getProducts');
 const PostCollectionSpecialPrices = require('./classes/PostCollectionSpecialPrices');
 const PostDocumentSpecialPrices = require('./classes/PostDocumentSpecialPrices');
